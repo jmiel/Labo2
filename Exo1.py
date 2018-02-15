@@ -19,3 +19,11 @@ pattern=r'[1-9][A-Z]{3}\d{3}|[1-9]\d{3}[A-Z]{3}'
 p=re.compile(pattern)
 
 print(p.match(immatriculation))'''
+
+'''windowsroute=input('Write me a correct Windows route : \n')
+pattern=r'[A-Z]\:\\'
+p=re.compile(pattern)
+
+print(p.match(windowsroute))'''
+
+
